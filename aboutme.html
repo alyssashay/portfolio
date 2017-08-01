@@ -1,44 +1,106 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
 	<style>
-		p {font-family: "Monospace", Courier, sans-serif;}
-		h1 { font-family: "Monospace", Courier, sans-serif; }
-		h2 {font-family: "Monospace", Courier, sans-serif;}
-		h3{font-family: "Monospace", Courier, sans-serif;}
-		h4{font-family: "Monospace", Courier, sans-serif;}
-		ul{font-family: "Monospace", Courier, sans-serif;}
-		li{font-family: "Monospace", Courier, sans-serif;}
-		
+		p {font-family: 'Amatic SC', cursive;}
+		h1{font-family: 'Amatic SC', cursive;}
+		h2{font-family: 'Amatic SC', cursive;}
+		h3{font-family: 'Amatic SC', cursive;}
+		h4{font-family: 'Amatic SC', cursive;}
+		h5{font-family: 'Amatic SC', cursive;}
+		h6{font-family: 'Amatic SC', cursive;}
+		h6{font-family: 'Amatic SC', cursive;}
+		span{font-family: 'Amatic SC', cursive;}
+		img{display: block;margin: auto;width: 40%;}
+		span{font-family: 'Amatic SC', cursive;}
+		.rotate90 {-webkit-transform: rotate(90deg); -moz-transform: rotate(90deg);-o-transform: rotate(90deg);-ms-transform: rotate(90deg);transform: rotate(90deg);}
 	</style>
-	<title> About Me </title>
+	<style>
+		.dropdown {
+   			 position: relative;
+   			 display: inline-block;
+					}
+
+		.dropdown-content {
+   			 display: none;
+   			 position: absolute;
+    		background-color: #f9f9f9;
+    		min-width: 160px;
+   			 box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    		padding: 12px 16px;
+    		z-index: 1;
+							}
+
+		.dropdown:hover .dropdown-content {
+   			 display: block;
+							}
+	</style>
+</head>
+<body>
+
+
+	<title style="color:#FFFFFF; font-size:45px;"> About Me </title>
 	
 </head>
-<body style="background-color:lemonchiffon; ">
+<body style="background-color:#bddef5;"> 
 
-	<h1 style="font-size:36px;text-align:center; color:rebeccapurple"  class="sansserif"> About Me </h1>
-	<img style="width:228px;height:350px;" src="milky1.jpg" alt="Milky" > 
-	<p> Hi! My name is Alissa. I am a rising senior at Northwood High School in Irvine, California. I have a younger sister I have a dog named Milky and we adopted him when he was 6 months old. He is an Ameircan Eskimo mix and he doesn't like to eat his dog food so we have to feed him chicken and rice.  </p> 
+<script onclick="myfunction()"> 
+
+function myFunction() {
+    document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+
+
+
+ 
+</script>
+
+	<h1 style="font-size:60px;text-align:center; color:rebeccapurple"  class="sansserif"> About Me </h1>
+	<img style="width:228px;height:350px;" src="milky1.jpg" alt="Milky"> 
+	<p style="font-size:30px"> Hi! My name is Alissa. I am a rising senior at Northwood High School in Irvine, California. I have a younger sister I have a dog named Milky and we adopted him when he was 6 months old. He is an Ameircan Eskimo mix and he doesn't like to eat his dog food so we have to feed him chicken and rice.  </p> 
 	<h2 style="color:mediumpurple;" > Biography </h2>
-	<p> I was born in Japan and I lived there for 10 years, then I moved to Taiwan for 2 years. Finally, I moved to Irvine, California, 5 years ago and now I'm here at Girls Who Code! I have a younger sister named Erica and </p>
-	<p> 
-
-	<h3 style="color:plum; font-size:18px" class="sansserif">I Love...</h3>
-
-		<ul class="sansserif">
-  			<li style="color:thistle;">Dogs</li>
-  			<li style="color:thistle;">Boba</li>
- 			<li style="color:thistle;">Drawing</li>
-		</ul>  
-
-	<h4 style="color:plum;font-size:18px" >I Hate...</h4>
-
-		<ul> 
-  			<li style="color:thistle;" >Carrots</li> 
-  			<li style="color:thistle;" >Tea</li>
-  			<li style="color:thistle;" >Milk</li>
-		</ul> 
-
+	<p style="font-size:30px"> I was born in Japan and I lived there for 10 years, then I moved to Taiwan for 2 years. Finally, I moved to Irvine, California, 5 years ago and now I'm here at Girls Who Code! I have a younger sister named Erica. I love to draw and play with my dog and taking him for walks.</p>
+	<p style="font-size:30px"> 
+		<div class="dropdown">
+ 			<span style="font-size:30px;" class="">Hover over me to see a picture of my dog!</span>
+  			<div class="dropdown-content">
+    			<p> <img style="width:250px; height:150px;" src="Milky-drinking-water.jpg" alt="Milky drinking water" class="rotate90"> </p>
+ 			 </div>
+		</div>
+	<h3 style="color:rebeccapurple; font-size:35px">Some Projects I Worked On!!</h5>
+	<h4 style="font-size:32px">Midnight Pizza Run</h6>
+	<p></p>
+	<p style="font-size:30px">The first big project I worked on with my group was a game called Midnight Pizza Run and our group made it using Scratch. I think it was a good idea making our first project using Scratch because the building blocks made it super easy to compile things together and it also gave me a godo idea of the basics of computer science in a fun way. The hardest part of the game was making the sprite to jump higher when the up button is pressed. Also, it was a bit challenging making sure that the pizza ingredients don't overlap on each other. Overall, it was really fun working with my group and coming up with the idea of the game and I was satisfied with the end project we got.</p>
+	<img style="width:270px;height:270px;float: left; width:30%; margin-right:1%; margin-left:3.7%; margin-bottom:0.5em" src="Midnightpizzarun.png" alt="Midnight Pizza Run" > 
+	<img style="width:270px;height:270px;float: left; width:30%; margin-right:1%; margin-bottom:0.5em" src="Midnightpizzarun1.png" alt="Midnight Pizza Run1">
+	<img style="width:270px;height:270px;float: left; width:30%; margin-right:1%; margin-bottom:0.5em" src="Midnightpizzarun2.png" alt="Midnight Pizza Run2">
+	<p style="clear:both;"> </p>
+	<h5 style="font-size:30px">Shapes!!!</h6>
+	<p style="font-size:30px">After completing our Scratch project, we moved on to learn Python. In this project, we used the Turtle library to complete our project. The only challenging part was making sure the angles are correct in order for the turtle to make it draw a certain shape. It was also fun filling in the shapes with different colors and making the icon into a little turtle! </p>
+	<img style="width:270px;height:270px;float: left; width:30%; margin-right:1%; margin-left:3.7%; margin-bottom:0.5em" src="shapescode.png" alt="shapescode" > 
+	<img style="width:270px;height:270px;float: left; width:30%; margin-right:1%; margin-bottom:0.5em" src="shapes1.png" alt="shapes1">
+	<img style="width:270px;height:270px;float: left; width:30%; margin-right:1%; margin-bottom:0.5em" src="shapes.png" alt="shapes">
+	<p style="clear:both;"> </p>
+	<h6 style="font-size:30px">PEEP</h6>
+	<p style="font-size:30px">For this Python project, we worked on obamifying Pepe and it was super fun because we took a image and changed the colors based on the original pixels. The hardest part of this project was understanding how the code will distinguish each pixel colors and change it to a new color based on the orignial pixel values. </p>
+	<img style="width:270px;height:270px;float: left; width:30%; margin-right:1%; margin-left:3.7%; margin-bottom:0.5em" src="pepe.jpg" alt="pepe orignial" > 
+	<img style="width:270px;height:270px;float: left; width:30%; margin-right:1%; margin-bottom:0.5em" src="Pepecode.png" alt="Pepe code">
+	<img style="width:270px;height:270px;float: left; width:30%; margin-right:1%; margin-bottom:0.5em" src="recolored.jpg" alt="New Pepe">
+	<p style="clear:both;"> </p>
+	<h6 style="font-size:30px">Text Adventure</h6>
+	<p style="font-size:30px"> For this Python Project, we worked on making a text adventure game. This game took the user input and based on that, the game will give a specific response. It was fun working with my group to come up with a story for this adventure. </p>
+	<img style="width:270px;height:270px;float: left; width:30%; margin-right:1%; margin-left:3.7%; margin-bottom:0.5em" src="textadventure.png" alt="text adventure code" > 
+	<img style="width:270px;height:270px;float: left; width:30%; margin-right:1%; margin-bottom:0.5em" src="textadv1.png" alt="text adventure1">
+	<img style="width:270px;height:270px;float: left; width:30%; margin-right:1%; margin-bottom:0.5em" src="textadv2.png" alt="text adveture2">
+	<p style="clear:both;"> </p>
+	<h6 style="font-size:30px">Dictionary Attack!!</h6>
+	<p style="font-size:30px">After learning about cyber security and the importance of protecting your passwords, we made a program that would give advice if the user inputs a password.</p>
+	<img style="width:270px;height:270px;float: left; width:30%; margin-right:1%; margin-left:3.7%; margin-bottom:0.5em" src="dicatt.png" alt="dictionary attack" > 
+	<img style="width:270px;height:270px;float: left; width:30%; margin-right:1%; margin-bottom:0.5em" src="dicatt1.png" alt="dicitonary attack1">
+	<img style="width:270px;height:270px;float: left; width:30%; margin-right:1%; margin-bottom:0.5em" src="dicatt2.png" alt="dictionary attack2">
+	<p style="clear:both;"> </p>
+	<h6 style="font-size:30px"> More project to come....</h6>
 
 </body>
 
